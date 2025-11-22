@@ -15,9 +15,6 @@ A beautiful, intelligent study companion chatbot with RAG (Retrieval-Augmented G
 - **Conversational chat interface**
 - **WhatsApp-style Chat Interface** (Green/White bubbles)
 - **Message timestamps**
-- **Chat history tracking**
-- **Statistics dashboard**
-- **Clear chat and materials options**
 
 ### ⚡ **Powered By**
 - **Groq API** - Ultra-fast AI inference
@@ -94,7 +91,6 @@ streamlit run app.py
 - Extracts text from uploaded documents
 - Includes content in AI context (up to 3000 chars per document)
 - AI references specific parts of your materials
-- Maintains conversation history for follow-up questions
 
 ## 📊 Project Structure
 
@@ -103,7 +99,6 @@ Student Mentor/
 ├── app.py              # Main application
 ├── .env                # API keys (not in git)
 ├── requirements.txt    # Python dependencies
-├── test_api.py        # API testing script
 ├── TROUBLESHOOTING.md # Detailed help guide
 └── README.md          # This file
 ```
@@ -149,3 +144,4 @@ This project is open source and available for educational purposes.
 ---
 
 **Made with ❤️ for students who want to study smarter, not harder!**
+
